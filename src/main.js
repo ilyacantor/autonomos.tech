@@ -44,19 +44,37 @@ document.querySelector('#app').innerHTML = `
             <div class="problem-grid">
               <div class="problem-card">
                 <h4>Enterprise Information is Fragmented</h4>
-                <p><strong>900+ applications</strong> managed by the average enterprise. <strong>71%</strong> remain disconnected. <strong>95% of IT leaders</strong> cite integration as the #1 barrier to AI adoption. Shadow IT and "agentic sprawl" compound the complexity.</p>
+                <ul>
+                  <li><strong>900+ applications</strong> managed by the average enterprise</li>
+                  <li><strong>71%</strong> remain disconnected</li>
+                  <li><strong>95% of IT leaders</strong> cite integration as the #1 barrier to AI adoption</li>
+                  <li>Shadow IT and "agentic sprawl" compound the complexity</li>
+                </ul>
               </div>
               <div class="problem-card">
                 <h4>M&A Value is Leaking</h4>
-                <p><strong>70% of deals</strong> fail to create intended value. Only <strong>30%</strong> hit synergy targets. Post-merger IT integration averages <strong>18–24 months</strong>. Up to <strong>50%</strong> of potential merger value is missed.</p>
+                <ul>
+                  <li><strong>70% of deals</strong> fail to create intended value</li>
+                  <li>Only <strong>30%</strong> hit synergy targets</li>
+                  <li>Post-merger IT integration averages <strong>18-24 months</strong></li>
+                  <li>Up to <strong>50%</strong> of potential merger value is missed</li>
+                </ul>
               </div>
               <div class="problem-card">
                 <h4>Multi-Entity Comprehension is Surface-Level</h4>
-                <p><strong>Hyperion and OneStream</strong> aggregate GL balances only. Operational metadata is stripped away. Parent entities see numbers, not the <strong>underlying operations</strong>.</p>
+                <ul>
+                  <li><strong>Hyperion and OneStream</strong> aggregate GL balances only</li>
+                  <li>Operational metadata is stripped away</li>
+                  <li>Parent entities see numbers, not the <strong>underlying operations</strong></li>
+                </ul>
               </div>
               <div class="problem-card">
                 <h4>Adaptation is Stalled</h4>
-                <p>Legacy architecture cannot support <strong>agentic AI</strong>. Organizations constrained by <strong>decades-old record-keeping systems</strong>. Without a context layer, <strong>AI agents</strong> remain isolated and ineffective.</p>
+                <ul>
+                  <li>Legacy architecture cannot support <strong>agentic AI</strong></li>
+                  <li>Organizations constrained by <strong>decades-old record-keeping systems</strong></li>
+                  <li>Without a context layer, <strong>AI agents</strong> remain isolated and ineffective</li>
+                </ul>
               </div>
             </div>
 
@@ -68,9 +86,6 @@ document.querySelector('#app').innerHTML = `
       <!-- THREE PRODUCTS -->
       <section id="products" class="section section-alt">
         <div class="container products-layout">
-          <div class="products-image">
-            <img src="/images/data-chain.jpg" alt="AOS Data Chain" />
-          </div>
           <div class="products-content">
             <h2>Three Products, One Scalable Platform, Deployed in Days</h2>
 
@@ -110,9 +125,6 @@ document.querySelector('#app').innerHTML = `
       <!-- WHY DAYS -->
       <section id="speed" class="section section-alt">
         <div class="container speed-layout">
-          <div class="speed-image">
-            <img src="/images/platform-ig.jpg" alt="AutonomOS Architecture" />
-          </div>
           <div class="speed-content">
             <h2>Why days, not years.</h2>
             <div class="speed-reasons">
